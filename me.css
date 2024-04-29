@@ -1,0 +1,145 @@
+.letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.board {
+height:300px;
+width:600px;
+margin-top: 15%;
+margin-left: 27%;
+background-color: #0039f5;
+border: 2px solid rgb(255, 249, 249);
+box-shadow: inset 0px 0px 40px 0px rgb(243, 243, 246);
+}
+.circle1 {
+ height:245px;
+ width:248px;
+ position: fixed; 
+margin-top: 1.5%;
+margin-left: 3%;
+background-color:azure;
+border: 1px solid rgb(5, 0, 0);
+border-radius: 50%;
+box-shadow: inset 0px 0px 100px 0px #01ffaa;
+}
+.circle2 {
+height:245px; 
+width:249px;
+position: fixed;
+margin-top: 0%;
+margin-left: 20%;
+background-color:azure;
+border: 1px solid #000000d3;
+border-radius: 50%;
+box-shadow: inset 0px 0px 100px 0px #01ffaa;
+}
+.braket {
+height:445px; 
+width:5px;
+position: fixed;
+margin-top:-7%;
+margin-left:-374px;
+background-color:rgb(242, 242, 251);
+border: 2px solid rgb(33, 32, 32);
+box-shadow: inset 0px 0px 10px 0px rgb(255, 255, 255);
+}
+.braket2 {
+height:245px; 
+width:47px;
+position: fixed;
+margin-top:6.5%;
+margin-left:5.5px;
+background-color:rgb(72, 81, 255);
+border: 2px solid rgb(34, 34, 34);
+box-shadow: inset 0px 0px 50px 0px rgb(13, 0, 255);
+}
+.port {
+height:75px; 
+width:20px;
+position: fixed;
+margin-top:6.5%;
+margin-left:px;
+background-color:rgb(11, 15, 16);
+border: 2px solid rgb(255, 255, 255); 
+}
+.pin {
+  height:50px;
+  width:380px;
+  position: fixed;
+  margin-top: 13.9%;
+  margin-left: 15%;
+  background-color:white;
+  border-top: white solid 2px;
+  border: 2px solid rgb(0, 0, 0);
+ box-shadow: inset 0px -20px 0px 0.3px yellow;
+}
+.fan1 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin-top: -140%;
+  margin-left: -95.4%;
+}
+#fan-image {
+  width: 235px; /* Adjust width of the image */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  top: 51%;
+  left: 49.7%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+  animation: rotateFan 2s linear infinite;
+}
+
+@keyframes rotateFan {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+fan2 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin-top: auto;
+  margin-left: -337%;
+}
+#fan-image2 {
+  width: 235px; /* Adjust width of the image */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  top: -550%;
+  left: 42.9%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+  animation: rotateFan 2s linear infinite;
+}
+
+@keyframes rotateFan {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.triangle {  
+  width: 220px;
+  height: 207px;
+  border: 3px solid #ffffff;
+  background: transparent;
+  margin-top: -59%;
+  margin-left: 72%;
+  border-left:0px;
+  border-bottom:0px;
+  transform: rotate(49deg);
+  }
+body {
+  background-image: url(purple.jpg);
+}
